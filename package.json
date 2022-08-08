@@ -12,18 +12,22 @@
     "lint": "yarn lint:format && yarn lint:fix ",
     "format": "prettier \"src/**/*.{js,jsx,ts,tsx,css,scss}\" --write",
     "type-check": "tsc",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cz": "cz"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
     "@vitejs/plugin-react": "^2.0.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.21.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
