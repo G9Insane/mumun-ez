@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable react/function-component-definition */
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
